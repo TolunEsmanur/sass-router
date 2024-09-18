@@ -1,0 +1,28 @@
+@import "../../scss/variable";
+@import "../../scss/mixins";
+
+
+
+
+.horizontal{
+    height: 10vh;
+    // border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+
+    .social-icons{
+        display: flex;
+        gap: 1.5rem;
+        .qq {
+            width: 2rem;
+            height: 2rem;
+          &:hover{
+            color: $secondary-color;
+            transition: 0.5s;
+          }  
+        }
+        
+    }
+}
